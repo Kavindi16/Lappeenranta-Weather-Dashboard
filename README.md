@@ -5,7 +5,7 @@ A Power BI weather dashboard using the OpenWeather API to visualize current cond
 ### Current weather
 ![Current Weather dashboard](screenshots/Current_Weather_Page.png)
 ### Forecast Details
-![Current Weather dashboard](screenshots/Current_Weather_Page.png)
+![Current Weather dashboard](screenshots/Forecast_Details_Page.png)
 
 ## Project Purpose and Learning Objectives
 The main purpose of this project was to practise retrieving data from a web API and securely sharing an API-connected Power BI dashboard without exposing private API credentials.
