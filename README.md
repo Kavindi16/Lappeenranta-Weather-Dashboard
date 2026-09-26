@@ -1,8 +1,8 @@
-# Lappeenranta-Weather-Dashboard
+# Lappeenranta Weather Dashboard
 A Power BI weather dashboard using the OpenWeather API to visualize current conditions and a 5-day forecast for Lappeenranta, Finland.
 
 ## Dashboard Preview
-### Current weather
+### Current Weather
 ![Current Weather dashboard](screenshots/Current_Weather_Page.png)
 ### Forecast Details
 ![Current Weather dashboard](screenshots/Forecast_Details_Page.png)
@@ -24,6 +24,7 @@ Through this project, I mainly practised API integration, JSON data transformati
 Weather data is retrieved from the [OpenWeather API](https://openweathermap.org/api) using:
 - Current Weather Data API
 - 5 Day / 3 Hour Forecast API
+  
 The dashboard is currently configured for Lappeenranta, Finland:
 ```text
 Latitude: 61.05
@@ -37,6 +38,17 @@ Units: Metric
 - OpenWeather REST API
 - JSON data transformation
 - Git and GitHub
+
+## How to Use the Template
+
+1. Create an account at [OpenWeather](https://openweathermap.org/).
+2. Generate your own OpenWeather API key.
+3. Download `Lappeenranta_Weather_Dashboard_Template.pbit` from this repository.
+4. Open the template using Power BI Desktop.
+5. When Power BI requests credentials, select **Web API**.
+6. Enter your OpenWeather API key and select **Connect**.
+7. Refresh the report if the data does not load automatically.
+8. Save the new report locally as a `.pbix` file.
 
 ## API Security
 No API key or authentication credential is included in this repository.
